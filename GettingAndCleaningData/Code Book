@@ -11,23 +11,6 @@ This dataset is derived from the "Human Activity Recognition Using Smartphones D
 * subject - ID of the test subject
 * activity - Type of activity performed
 
-## run_analysis.R
-Script used to obtain the data, clean up the data, measure, and aggregate the data into a 'Tidy' dataset.
-#### Overview of script:
-1. Modules: data.table and plyr
-2. Download and unpack the UCI HAR Dataset
-3. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
-4. Get features (headers)
-5. Merge X_training and X_test data into one; XData
-6. Trim columns to be only the columns needed; columns containing '-mean' and '-std'
-7. Merge y_training and y_test into one; YData (Activity)
-8. Match Activity levels with YData
-9. Merge subject_training and subject_test into one; SubData  (Who did the Activity)
-10. Merge XData, YData, and SubData into one large dataset; 'FullData'
-11. Load and rename column labels with meaningful language
-12. Create Tidy data
-13. Write both 'FullData' and Tidy data to flat files
-
 ### Features
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
