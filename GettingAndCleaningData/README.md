@@ -1,0 +1,1 @@
+This is the project for 'Getting and Cleaning Data'. The 'run_analysis.R' file can be run from any working directory, but it does require the data.table and plyr libraries to be installed to work. The final output will be 'FullData.txt' which contains the complete dataset, and 'AggData.txt' which contains the 'tidy' aggregated dataset.
