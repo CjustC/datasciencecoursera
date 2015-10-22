@@ -27,3 +27,18 @@ Both the FullData.txt and 'Tidy.txt' can be found in this repository
 About the Code Book
 -------------------
 The CodeBook.md file describes the variables, the data, and any transformations performed to clean up the data.
+
+Overview of script:
+1. Modules: data.table and plyr
+2. Download and unpack the UCI HAR Dataset
+3. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+4. Get features (headers)
+5. Merge X_training and X_test data into one; XData
+6. Trim columns to be only the columns needed; columns containing '-mean' and '-std'
+7. Merge y_training and y_test into one; YData (Activity)
+8. Match Activity levels with YData
+9. Merge subject_training and subject_test into one; SubData  (Who did the Activity)
+10. Merge XData, YData, and SubData into one large dataset; 'FullData'
+11. Load and rename column labels with meaningful language
+12. Create Tidy data
+13. Write both 'FullData' and Tidy data to flat files
