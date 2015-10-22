@@ -5,14 +5,26 @@ Course Project for 'Getting and Cleaning Data'
 
 Purpose
 =========================================
-To demonstrate your ability to collect, work with, and clean a data set.
+To demonstrate ability to collect, work with, and clean a data set.
 
 Raw Data
 ------------------
 
 This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Features (561 features) that are unlabled and can be found in the x_test.txt. 
+The dataset includes the following files:
+-----------------------------------------
+
+- 'README.txt'
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+- 'features.txt': List of all features.
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'train/X_train.txt': Training set.
+- 'train/y_train.txt': Training labels.
+- 'test/X_test.txt': Test set.
+- 'test/y_test.txt': Test labels.
+
+Features (561 features) that are unlabled and can be found in the x_test.txt. Each feature vector is a row on the text file.
 Activity labels can be found in the y_test.txt file.
 Test subjects can be found in the subject_test.txt file.
 
