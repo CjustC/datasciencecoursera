@@ -1,6 +1,6 @@
   
 
-This is the project for 'Getting and Cleaning Data'.
+Course Project for 'Getting and Cleaning Data'
 =========================================
 
 Purpose
