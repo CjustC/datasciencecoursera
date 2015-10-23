@@ -10,7 +10,7 @@ This dataset is derived from the "Human Activity Recognition Using Smartphones D
 * subject - ID of the test subject
 * activity - Type of activity performed
 
-## Script: run_analysis.R
+## run_analysis.R
 Script used to obtain the data, clean up the data, measure, and aggregate the data into a 'Tidy' dataset.
 
 ## Features
