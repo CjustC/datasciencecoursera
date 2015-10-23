@@ -1,8 +1,8 @@
 # Course Project Code Book
 The Code Book describes the variables, the data, and any transformations or work performed to clean up the data and store in an aggregated dataset, 'Tidy.txt'.
 
-## Source of the original data: 
-## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Source of the original data: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
