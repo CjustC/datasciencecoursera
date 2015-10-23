@@ -43,7 +43,7 @@ The 'run_analysis.R' file can be ran from any working directory, but it does req
 12. Create Tidy data
 13. Write both 'FullData' and Tidy data to flat files
 
-Both the FullData.txt and 'Tidy.txt' can be found in this repository
+'Tidy.txt' can be found in this repository
 
 ## About the Code Book
 The CodeBook.md file describes the variables, the data, and any transformations performed to clean up the data.
