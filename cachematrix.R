@@ -1,50 +1,3 @@
-Chana
-
-
-Search for topics
-
-
-
-
-Groups
-
-
-POST REPLY	
-13 of 21 (1)  
-
-
-
-
-My groups
-Home
-Starred
-
-
-Favorites
-Click on a group’s star icon to add it to your favorites
-
-
-Recently viewed
-
-
-Recently posted to
-Privacy - Terms of Service
-Denver Metro Johns Hopkins Data Science MOOC Study Group ›
-My Code for Assignment 2 with testing examples
-1 post by 1 author 
-
-
-
-me (C change) 	
-
-Sep 23
-
-
-Hi All,
-
-I am including my code below. There are a lot of comments in the code. Jason, Levi, and I discussed that since our code is peer reviewed it is best to put lots of comments to help the reviewer understand what is going on. Hopefully, this will help elevate deducted points when the code is actually working. Let me know if you see anything I may have missed!
-     Also, I included some testing examples below the functions so the reviewer can test the code. 
-
 ## The purpose of these two functions are to store the matrix and the
 ## inverse of a matrix for repeated use without having to 
 ## recalculate the matrix inversion multiple times.
@@ -179,5 +132,3 @@ cacheSolve <- function(inputMatrix, ...) {
 ## [,1]       [,2]
 ## [1,]  0.6666667 -0.1666667
 ## [2,] -0.3333333  0.3333333
-
-Click here to Reply
